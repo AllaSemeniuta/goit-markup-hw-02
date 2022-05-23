@@ -1,0 +1,11 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-text-color: #2196f3;
+  --primary-bgc: #e5e5e5;
+  --secondary-bgc: #2f303a;
+}
+body {
+  background: var(--primary-bgc);
+}
