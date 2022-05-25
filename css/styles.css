@@ -10,15 +10,14 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
 }
-/* .link {
-  list-style: none;
-} */
+
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
 }
+/* Index */
 /* header */
 .header-logo {
   font-family: 'Raleway';
@@ -38,10 +37,12 @@ a {
   font-size: 14px;
   color: var(--title-text-color);
   line-height: 16px;
-  cursor: pointer;
 }
 .header-link:active,
 .header-link:focus {
+  color: var(--accent-text-color);
+}
+.header-link.current {
   color: var(--accent-text-color);
 }
 .header-mail,
@@ -51,6 +52,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  color: var(--primary-text-color);
 }
 .header-mail:active,
 .header-tel:active,
@@ -79,6 +81,7 @@ a {
   line-height: 30px;
   color: var(--white-text-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
 }
 /* Benefits */
 .benefits-subtitle {
@@ -167,4 +170,45 @@ a {
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel:focus,
+.footer-tel:hover,
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-text-color);
+}
+
+/* Portfolio */
+/* section portfolio */
+.potrfolio-btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.potrfolio-btn:focus,
+.potrfolio-btn:hover {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+}
+/* projects */
+.projects-link > h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--title-text-color);
+}
+.projects-link > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--primary-text-color);
 }
