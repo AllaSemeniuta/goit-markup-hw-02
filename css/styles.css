@@ -53,7 +53,7 @@ body {
 .header-link:focus {
   color: var(--accent-text-color);
 }
-.header-link.current {
+.current {
   color: var(--accent-text-color);
 }
 .header-mail,
